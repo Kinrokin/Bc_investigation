@@ -1,0 +1,153 @@
+[
+  {
+    "source_file": "City_September28_2026_Agenda.pdf",
+    "source_url": "https://www.stjosephmo.gov/DocumentCenter/View/22252/-September-28-2026-Agenda",
+    "acquired_sha256": "5c8f1af35b875255168d93361f1b2829a7f5166225992d3d96910d97c6da71b2",
+    "status": "reviewed downloaded original",
+    "published_file": "sources/originals/City_September28_2026_Agenda.pdf",
+    "published_sha256": "5c8f1af35b875255168d93361f1b2829a7f5166225992d3d96910d97c6da71b2"
+  },
+  {
+    "source_file": "United_Way_2025_Annual_Report.pdf",
+    "source_url": "https://www.stjosephunitedway.org/sites/stjosephunitedway/files/2025AnnualReport_Digital.pdf",
+    "acquired_sha256": "0b163cb97f69d2738e62aac6ae70154adcf7351214dffb851cbfd97d4c828e15",
+    "status": "reviewed downloaded original",
+    "published_file": "sources/originals/United_Way_2025_Annual_Report.pdf",
+    "published_sha256": "0b163cb97f69d2738e62aac6ae70154adcf7351214dffb851cbfd97d4c828e15"
+  },
+  {
+    "source_file": "City_September28_2026_Statement.pdf",
+    "source_url": "https://www.stjosephmo.gov/DocumentCenter/View/22260/Statement-on-Horace-Mann-Future-September-28-2026-PDF",
+    "acquired_sha256": "e954c757034cb5725c0b0234b7521423e5f5589796a27540e60d3ad4a1558ac1",
+    "status": "reviewed downloaded original",
+    "published_file": "sources/originals/City_September28_2026_Statement.pdf",
+    "published_sha256": "e954c757034cb5725c0b0234b7521423e5f5589796a27540e60d3ad4a1558ac1"
+  },
+  {
+    "source_file": "City_September21_2026_Statement.pdf",
+    "source_url": "https://www.stjosephmo.gov/DocumentCenter/View/22248/Statement-on-Bartlett-Center-Changes-September-21-2026-PDF",
+    "acquired_sha256": "650ba4d14498c0e31a5c8502a7d38e6f06a2cdbbbf3ce5a6a1930c055dbbd381",
+    "status": "reviewed downloaded original",
+    "published_file": "sources/originals/City_September21_2026_Statement.pdf",
+    "published_sha256": "650ba4d14498c0e31a5c8502a7d38e6f06a2cdbbbf3ce5a6a1930c055dbbd381"
+  },
+  {
+    "source_file": "City_June22_2026_Packet.pdf",
+    "source_url": "https://www.stjosephmo.gov/AgendaCenter/ViewFile/Minutes/_06222026-3330",
+    "acquired_sha256": "c4a88af9cc3737a0ca14f77985ff9f5d83a257851be02279bb2b3785d6cc2bc7",
+    "status": "reviewed downloaded original",
+    "published_file": "sources/originals/City_June22_2026_Packet.pdf",
+    "published_sha256": "c4a88af9cc3737a0ca14f77985ff9f5d83a257851be02279bb2b3785d6cc2bc7"
+  },
+  {
+    "source_file": "United_Way_2024_Annual_Report.pdf",
+    "source_url": "https://www.stjosephunitedway.org/sites/stjosephunitedway/files/2024_Annual_Report_Final.pdf",
+    "acquired_sha256": "87dab5f7149be5ac69518049c26166b85bfb00de761cc4534027a62c5527f6e0",
+    "status": "reviewed downloaded original",
+    "published_file": "sources/originals/United_Way_2024_Annual_Report.pdf",
+    "published_sha256": "87dab5f7149be5ac69518049c26166b85bfb00de761cc4534027a62c5527f6e0"
+  },
+  {
+    "source_file": "Bartlett_September25_2026_Resolution.pdf",
+    "source_url": "https://www.kq2.com/wp-content/uploads/2026/09/Signed-formal-resolution-062526.pdf",
+    "acquired_sha256": "a27a546b607607b47b1180bd2bca67665ff6394544029c551064d98e3d4a6614",
+    "status": "reviewed downloaded original",
+    "published_file": "sources/originals/Bartlett_September25_2026_Resolution.pdf",
+    "published_sha256": "a27a546b607607b47b1180bd2bca67665ff6394544029c551064d98e3d4a6614"
+  },
+  {
+    "source_file": "City_Procurement_Policy.pdf",
+    "source_url": "https://www.stjosephmo.gov/DocumentCenter/View/8622/Procurement-Policy-PDF",
+    "acquired_sha256": "f80bd0640141d2255536376f95d82027e3d6ee894eb87ef4a0ca43dd7c86c7a7",
+    "status": "reviewed downloaded original",
+    "published_file": "sources/originals/City_Procurement_Policy.pdf",
+    "published_sha256": "f80bd0640141d2255536376f95d82027e3d6ee894eb87ef4a0ca43dd7c86c7a7"
+  },
+  {
+    "source_file": "Missouri_House_September10_2024_Testimony.pdf",
+    "source_url": "https://house.mo.gov/BillTracking/bills241/witnesses/NoBillsWitnesses/2943%269-10-2024.pdf",
+    "acquired_sha256": "0b123515316b9a8f142c5c6600d24b16953fb5b8f9b32bd300b1a6ff710bb2e8",
+    "status": "contact-redacted derivative",
+    "redactions": 74,
+    "published_file": "sources/originals/Missouri_House_September10_2024_Testimony_CONTACT_REDACTED.pdf",
+    "published_sha256": "7809e7dc2da30c7debc74e73b5755cd3830ee4a0cbe388f1a5b36e51f9f398b2"
+  },
+  {
+    "source_file": "HUD_October16_2025_Lapse_Plan.pdf",
+    "source_url": "https://www.hud.gov/sites/dfiles/PA/documents/HUD-Lapse-Plan.pdf",
+    "acquired_sha256": "1d27c0c788fe6130d112f5271521f1336b2f8b16c97293236e06b77de5bc4c6d",
+    "status": "reviewed downloaded original",
+    "published_file": "sources/originals/HUD_October16_2025_Lapse_Plan.pdf",
+    "published_sha256": "1d27c0c788fe6130d112f5271521f1336b2f8b16c97293236e06b77de5bc4c6d"
+  },
+  {
+    "source_url": "https://projects.propublica.org/nonprofits/full_text/202610519349300211/IRS990",
+    "acquired_sha256": "b2c0400655b41bee6b1fc5225c57b5f7e5720607abb94b2d9bf39b3863b1b4c3",
+    "published_file": "sources/irs_views/Bartlett_FY2025_IRS990_IRS_Derived_Viewer.html",
+    "published_sha256": "0c43877b8de3750543d5574fcd9e4d1882a8c9347e4531155844016fb349c649",
+    "status": "passive IRS-derived rendering; not original XML"
+  },
+  {
+    "source_url": "https://projects.propublica.org/nonprofits/full_text/202610519349300211/IRS990ScheduleA",
+    "acquired_sha256": "94b39e2d33e1d45bd3f683db138b0e57465d7715cca31618984dce01ff849f46",
+    "published_file": "sources/irs_views/Bartlett_FY2025_IRS990ScheduleA_IRS_Derived_Viewer.html",
+    "published_sha256": "4c9b4f66cf8333ac9e230d13b2e7e00f0783313c63bc219d100e72794b6b5a37",
+    "status": "passive IRS-derived rendering; not original XML"
+  },
+  {
+    "source_url": "https://projects.propublica.org/nonprofits/full_text/202610519349300211/IRS990ScheduleB",
+    "acquired_sha256": "48c95f2bdc1aa37f29982a998194ce2ea1ea3b0cc26a0eeaede3451c95f5aa3d",
+    "published_file": "sources/irs_views/Bartlett_FY2025_IRS990ScheduleB_IRS_Derived_Viewer.html",
+    "published_sha256": "5b805709a351766358545851c3e4d04558079a6d63e4c30fd33db657c94acbb5",
+    "status": "passive IRS-derived rendering; not original XML"
+  },
+  {
+    "source_url": "https://projects.propublica.org/nonprofits/full_text/202610519349300211/IRS990ScheduleD",
+    "acquired_sha256": "f242b969c9e90ffff17c54bed084e64074babfbf4f6008d83da615fa9e06016c",
+    "published_file": "sources/irs_views/Bartlett_FY2025_IRS990ScheduleD_IRS_Derived_Viewer.html",
+    "published_sha256": "e2f309367616146ea94ecdbc423dc3e78a5bd7b07a74c8041e0d4117f7106c5b",
+    "status": "passive IRS-derived rendering; not original XML"
+  },
+  {
+    "source_url": "https://projects.propublica.org/nonprofits/full_text/202610519349300211/IRS990ScheduleO",
+    "acquired_sha256": "9081dc2e7d0ee8b2f5f389467092fee23cb9c08cf5a21d217258da9ab6c86b96",
+    "published_file": "sources/irs_views/Bartlett_FY2025_IRS990ScheduleO_IRS_Derived_Viewer.html",
+    "published_sha256": "86712aa654e8b68a064b9df67f8134e8766ddb1f36bb2fab0b1c550f13a3b892",
+    "status": "passive IRS-derived rendering; not original XML"
+  },
+  {
+    "source_url": "https://projects.propublica.org/nonprofits/full_text/202510529349300816/IRS990",
+    "acquired_sha256": "862d56e7ac322edafcbe26737b93a42cb0be1c0700f5f80f0a5d2a4b1ee8a0a4",
+    "published_file": "sources/irs_views/Bartlett_FY2024_IRS990_IRS_Derived_Viewer.html",
+    "published_sha256": "805014456f2ec68bbfe37bbf64c5f751c72fdf59e9b9d75a9ab6676d4a4ff89d",
+    "status": "passive IRS-derived rendering; not original XML"
+  },
+  {
+    "source_url": "https://projects.propublica.org/nonprofits/full_text/202510529349300816/IRS990ScheduleA",
+    "acquired_sha256": "121ac74c77a1c5fba360441b2f6958770022398e6f6252cbe7c80eb3eb6287a1",
+    "published_file": "sources/irs_views/Bartlett_FY2024_IRS990ScheduleA_IRS_Derived_Viewer.html",
+    "published_sha256": "f8542a580bd35795a074892a9aaaac9572e9f43abd51220b8e8cb37f407355d9",
+    "status": "passive IRS-derived rendering; not original XML"
+  },
+  {
+    "source_url": "https://projects.propublica.org/nonprofits/full_text/202510529349300816/IRS990ScheduleB",
+    "acquired_sha256": "67f046eb7243a2942d6c1e657af2fdfe218e4a24f524a31a85130f4a8ef7a03a",
+    "published_file": "sources/irs_views/Bartlett_FY2024_IRS990ScheduleB_IRS_Derived_Viewer.html",
+    "published_sha256": "3b5d03551e6e72a9496f80b2f7cc1c296295b6f6381451e3064df67c23739a62",
+    "status": "passive IRS-derived rendering; not original XML"
+  },
+  {
+    "source_url": "https://projects.propublica.org/nonprofits/full_text/202510529349300816/IRS990ScheduleD",
+    "acquired_sha256": "2ea699764d35646690e01e162a85d8803e2583f435316a7fbcd57a39fe27a1ce",
+    "published_file": "sources/irs_views/Bartlett_FY2024_IRS990ScheduleD_IRS_Derived_Viewer.html",
+    "published_sha256": "c2792150d38a8b33fc855e07c5f2a640908cc070cb76916adf63e43844ccaab6",
+    "status": "passive IRS-derived rendering; not original XML"
+  },
+  {
+    "source_url": "https://projects.propublica.org/nonprofits/full_text/202510529349300816/IRS990ScheduleO",
+    "acquired_sha256": "8a80424a235df7156bde802ea8301aa3d91fd084ec23db90cfa103605cce0a8e",
+    "published_file": "sources/irs_views/Bartlett_FY2024_IRS990ScheduleO_IRS_Derived_Viewer.html",
+    "published_sha256": "2e38c98080d0098d027356e92cd89d091be90e607389695b0abba4cd8ef15728",
+    "status": "passive IRS-derived rendering; not original XML"
+  }
+]
