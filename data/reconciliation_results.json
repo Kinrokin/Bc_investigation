@@ -1,0 +1,137 @@
+{
+  "source_pages": {
+    "June22_packet": [
+      6,
+      12,
+      32
+    ],
+    "September21_statement": [
+      2
+    ]
+  },
+  "method": "Decimal; ROUND_HALF_UP; elapsed dates except inclusive accounting period",
+  "candidate_rate": "0.035",
+  "lease_schedule": [
+    {
+      "start": "2024-08-01",
+      "end": "2025-06-30",
+      "printed_annual": "32543.51",
+      "printed_monthly": "2711.96",
+      "monthly_times_12": "32543.52",
+      "printed_annual_minus_12_monthly": "-0.01",
+      "candidate_annual": "32543.51",
+      "candidate_monthly": "2711.96"
+    },
+    {
+      "start": "2025-07-01",
+      "end": "2026-06-30",
+      "printed_annual": "33682.53",
+      "printed_monthly": "2806.28",
+      "monthly_times_12": "33675.36",
+      "printed_annual_minus_12_monthly": "7.17",
+      "candidate_annual": "33682.53",
+      "candidate_monthly": "2806.88"
+    },
+    {
+      "start": "2026-07-01",
+      "end": "2027-06-30",
+      "printed_annual": "34681.42",
+      "printed_monthly": "2905.12",
+      "monthly_times_12": "34861.44",
+      "printed_annual_minus_12_monthly": "-180.02",
+      "candidate_annual": "34861.42",
+      "candidate_monthly": "2905.12"
+    },
+    {
+      "start": "2027-07-01",
+      "end": "2028-06-30",
+      "printed_annual": "36081.57",
+      "printed_monthly": "3060.80",
+      "monthly_times_12": "36729.60",
+      "printed_annual_minus_12_monthly": "-648.03",
+      "candidate_annual": "36081.57",
+      "candidate_monthly": "3006.80"
+    }
+  ],
+  "rent": {
+    "status": "CANDIDATE; receivable ledger not obtained",
+    "candidate_prior_monthly": "2806.88",
+    "candidate_prior_three_months": "8420.64",
+    "candidate_prior_five_months": "14034.40",
+    "seven_month_obligation": "19648.16",
+    "four_installments": "19648.12",
+    "candidate_carry": "0.04",
+    "three_current_months": "8715.36",
+    "candidate_final": "8715.40",
+    "reported_final": "8715.40"
+  },
+  "intervals": [
+    {
+      "group": "May-June2025",
+      "receipt": "2025-08-29",
+      "finance": "2025-09-04",
+      "paid": "2025-09-12",
+      "receipt_to_finance": 6,
+      "finance_to_paid": 8,
+      "receipt_to_paid": 14,
+      "legal_status": "Not adjudicated; request completeness/holds/governing award not resolved"
+    },
+    {
+      "group": "July-September2025",
+      "receipt": "2025-10-21",
+      "finance": "2025-12-09",
+      "paid": "2025-12-12",
+      "receipt_to_finance": 49,
+      "finance_to_paid": 3,
+      "receipt_to_paid": 52,
+      "legal_status": "Not adjudicated; request completeness/holds/governing award not resolved"
+    }
+  ],
+  "accounting": {
+    "period_days": 243,
+    "revenue": "380842.56",
+    "expenses": "426463.84",
+    "deficit": "45621.28",
+    "daily_accounting_average": "187.74",
+    "cash_exhaustion_date": null,
+    "limitation": "No dated cash ledger or actual September payroll/credit data"
+  },
+  "counterexample": {
+    "status": "ILLUSTRATION ONLY; not Bartlett transactions",
+    "receipt_first": {
+      "final": "15000.00",
+      "ever_negative": false
+    },
+    "payment_first": {
+      "final": "15000.00",
+      "ever_negative": true
+    }
+  },
+  "validation": {
+    "passed": 16,
+    "failed": 0,
+    "checks": [
+      "lease row2 difference",
+      "lease row3 difference",
+      "lease row4 difference",
+      "candidate prior monthly",
+      "candidate current monthly",
+      "candidate final monthly",
+      "prior check",
+      "prior default",
+      "four-cent carry",
+      "reported arrears reproduced",
+      "14 days",
+      "52 days",
+      "49 pre-Finance days",
+      "243 accounting days",
+      "deficit",
+      "cash counterexample"
+    ]
+  },
+  "limitations": [
+    "A fitted escalation pattern is not an agreed term or actual billing proof.",
+    "The first printed lease row starts August while other term language starts July; no actual proration inferred.",
+    "No finding of hidden charges, sabotage, bank default or cash-exhaustion date."
+  ]
+}
