@@ -1,0 +1,6 @@
+id,serviceperiod,amount,reference_date,recorded_paid,limit,source
+G01,July–September2024,5462.52,2025-06-04,2025-06-27,Corrected-report date; City chronology also has earlier group submissions,S01:p6
+G02,October–December2024,5462.52,2025-06-04,2025-07-03,Corrected-report date; not original request receipt,S01:p6
+G03,January–April2025,7283.36,2025-06-04,2025-07-11,Corrected-report date; underlying completeness/hold status unknown,S01:p6
+G04,May–June2025,3641.6,2025-08-29,2025-09-12,Recorded CDBG receipt to paid interval,S01:p6
+G05,July–September2025,4717.26,2025-10-21,2025-12-12,Recorded CDBG receipt; reasons for 52-day interval not independently resolved,S01:p6
