@@ -1,0 +1,2 @@
+Public-records research and evidence engineering — Bartlett / Horace Mann (2026)
+Built an AI-assisted, versioned evidence collection combining municipal records, nonprofit financial statements, tax-return renderings, source registers and reproducible Decimal calculations. Distinguished cash from accrual accounting, mapped authority and chronology, maintained corrections and privacy-separated publication, and prepared source-first verification requests. Distributed the source-backed collection for independent review. No legal or governmental audit credential is implied.
