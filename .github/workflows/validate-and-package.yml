@@ -1,0 +1,63 @@
+name: Validate and package BC investigation
+on:
+  push:
+    branches: [main]
+permissions:
+  contents: write
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Reproduce arithmetic
+        run: python scripts/reconcile.py --out data/reconciliation_results.json
+      - name: Verify required source set and package
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,json,zipfile
+          required=[
+            'sources/originals/City_June22_2026_Packet.pdf',
+            'sources/originals/City_September21_2026_Statement.pdf',
+            'sources/originals/City_September28_2026_Statement.pdf',
+            'sources/originals/City_September28_2026_Agenda.pdf',
+            'sources/originals/City_Procurement_Policy.pdf',
+            'sources/originals/Bartlett_September25_2026_Resolution.pdf',
+            'sources/originals/United_Way_2024_Annual_Report.pdf',
+            'sources/originals/United_Way_2025_Annual_Report.pdf',
+            'sources/originals/HUD_October16_2025_Lapse_Plan.pdf',
+            'docs/CURRENT_FINDINGS.md','portfolio/CASE_STUDY.md','scripts/reconcile.py'
+          ]
+          for p in required: assert Path(p).is_file(), p
+          checks=json.loads(Path('data/reconciliation_results.json').read_text())
+          assert checks['validation']['failed']==0
+          files=[p for root in ['docs','portfolio','data','sources','scripts','archive'] for p in Path(root).rglob('*') if p.is_file()]
+          files += [Path('README.md'),Path('MIGRATION.md')]
+          Path('dist').mkdir(exist_ok=True)
+          out=Path('dist/Bc_Investigation_Portfolio_and_Sources.zip')
+          with zipfile.ZipFile(out,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
+              for p in sorted(set(files)): z.write(p,str(p))
+          sha=hashlib.sha256(out.read_bytes()).hexdigest()
+          Path('dist/SHA256SUMS.txt').write_text(f"{sha}  {out.name}\n")
+          print(json.dumps({'files':len(set(files)),'zip_bytes':out.stat().st_size,'sha256':sha},indent=2))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bc-investigation-portfolio
+          path: |
+            dist/Bc_Investigation_Portfolio_and_Sources.zip
+            dist/SHA256SUMS.txt
+          retention-days: 30
+      - name: Publish/update repository release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view bc-investigation-2026-09-28 >/dev/null 2>&1; then
+            gh release upload bc-investigation-2026-09-28 dist/Bc_Investigation_Portfolio_and_Sources.zip dist/SHA256SUMS.txt --clobber
+          else
+            gh release create bc-investigation-2026-09-28 dist/Bc_Investigation_Portfolio_and_Sources.zip dist/SHA256SUMS.txt --target "${GITHUB_SHA}" --title "BC Investigation — Bartlett / Horace Mann evidence portfolio" --notes "Dedicated repository release for Robert King's AI-assisted public-records investigation. Source-backed findings, reproducible financial tables, public source documents, and archived earlier Bartlett snapshots. Not a legal finding or political endorsement. Research cutoff predates the September 28 evening Council meeting."
+          fi
